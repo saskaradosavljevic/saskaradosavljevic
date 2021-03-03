@@ -1,0 +1,223 @@
+@media screen and (max-width: 1025px){
+    #cover .bg-cover .text-cover{
+        font-size: 30px;
+    }
+    #cover .bg-cover .text-cover p{
+        font-size: 37px;
+    }
+    #aboutMe{
+        flex-direction: column;
+    }
+    #aboutMe figure{
+        width:50%;
+        margin: 10px auto;
+        padding: 0px;
+    }
+    #aboutMe #aboutMe-text{
+        font-size: 20px;
+    }
+    #skills .skill h3{
+        font-size: 22px;
+    }
+    #skills .skill p{
+        font-size: 23px;
+    }
+    #skills .skill{
+        width: 40%;
+       
+    }
+    #projects {
+        flex-direction: column;
+    }
+    #projects .project{
+        width: 60%;
+        margin-top: 30px;
+    }
+    #projects .project p{
+        font-size: 23px; 
+    }
+    #projects .project h3{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:860px){
+    #aboutMe{
+        flex-direction: column;
+    }
+    #aboutMe figure{
+        width: 70%;
+        margin: 10px auto;
+        padding: 0px;
+    }
+    #aboutMe #aboutMe-text{
+        width: 80%;
+        margin: 10px auto;
+        padding: 0px;
+    }
+    #skills .skill{
+        margin: 16px;
+    }
+}
+@media screen and (max-width: 780px){
+   header nav ul li a{
+       font-size: 16px; 
+   }
+   #cover{
+       height: 390px ;
+   }
+   #cover .bg-cover .text-cover{
+       font-size: 22px;
+       margin-left: 60px;
+   }
+   .titles h2{
+       font-size: 27px;
+   }
+   #skills .skill{
+       width: 60%;
+       margin: 15px auto;
+       padding: 7px;
+   }
+   #skills .skill p{
+       font-size: 20px;
+   }
+   #projects .project p{
+       font-size: 20px;
+   }
+    
+}
+@media screen and (max-width: 557px){
+    #navigation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #projects .project{
+        width: 70%;
+    }
+    #contact #contactform{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px){
+    
+   #navigation{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+    header nav ul li a{
+        font-size: 18px;
+    }
+    header nav ul li:last-child{
+        margin-right: 0px;
+    }
+    header nav ul li:first-child{
+        margin-left: 0px;
+    }
+    #aboutMe #abotuMe-text{
+        width: 95%;
+    }
+    #aboutMe{
+        width: 100%;
+    }
+    #projects .project{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width: 426px){
+    
+   #navigation{
+       justify-content: center;
+       align-items: center;
+   }
+   header nav ul li a{
+       font-size: 14px;
+   }
+   header nav ul li:first-child{
+       margin-left:15px ;
+   }
+   header nav ul li:last-child{
+       margin-right: 15px;
+   }
+   #cover{
+       height: 270px;
+   }
+   #cover .bg-cover .text-cover{
+       font-size: 20px;
+       margin-left: 45px;
+   }
+   #cover .bg-cover .text-cover p{
+       font-size: 22px;
+   }
+   #aboutMe #aboutMe-text{
+       font-size: 17px;
+   }
+   #skills .skill p{
+       font-size: 17px;
+   }
+   .titles h2{
+       font-size: 25px;
+   }
+   #projects .project p{
+       font-size: 17px;
+   }
+   #projects .project{
+       width: 80%;
+   }
+}  
+@media screen and (max-width: 378px){
+    header nav ul li a{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    #cover{
+        height: 200px;
+        
+    }
+    #cover .bg-cover .text-cover{
+        font-size: 18px;
+    }
+    #cover .bg-cover .text-cover p{
+        font-size: 20px;
+    }
+    #aboutMe #aboutMe-text{
+        font-size: 15px;
+    }
+    #skills .skill h3{
+        font-size: 18px;
+        margin: 0;
+    }
+    #projects .project{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 321px){
+    header nav ul li a{
+        font-size: 9px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #cover .bg-cover .text-cover{
+        font-size: 15px;
+    }
+    #cover .bg-cover .text-cover p{
+        font-size: 18px;
+    }
+    #aboutMe #aboutMe-text{
+        font-size: 14px;
+    }
+    #skills .skill p{
+        font-size: 14px;
+    }
+    #skills .skill h3{
+        font-size: 16px;
+        margin: 0px;
+    }
+    #projects .project p{
+        font-size: 14px;
+    }
+}
